@@ -1,5 +1,3 @@
-import * as assert from "assert";
-
 export function func2() {
     console.log("----------enum-----------")
 

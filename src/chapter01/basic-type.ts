@@ -27,12 +27,15 @@ export function func1() {
 
     console.log("----------map-----------")
 
-    let f: Record<string, string> = {"key1": "value1", "key2": "value2"}
+    let f: { [key: string]: string } = {"key1": "value1", "key2": "value2"}
     console.log(f)
+
+    let g: Record<string, string> = {"key1": "value1", "key2": "value2"}
+    console.log(g)
 
     console.log("----------tuple-----------")
 
-    let g: [string, number, boolean] = ["ts", 3.14, true]
-    console.log(g)
+    let h: [string, number, boolean] = ["ts", 3.14, true]
+    console.log(h)
 
 }
